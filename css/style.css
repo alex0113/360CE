@@ -85,10 +85,9 @@ ol li
 
 header
 { height: 150px;
-  background: #1D1D1D;
-  background: -moz-linear-gradient(#535353, #000);
-  background: -o-linear-gradient(#535353, #000);
-  background: -webkit-linear-gradient(#535353, #000);}
+  background: #000000;
+
+}
 
 nav
 { height: 60px;}
@@ -105,6 +104,32 @@ nav
   height: 70px;
   padding-top: 10px;
   margin: 0 auto;}
+
+#logo_b
+{
+
+  position: absolute;
+  left: 0px;
+  z-index = -1;
+}
+
+#logo_360
+{
+  position: absolute;
+  right: 0px;
+  padding-top: 0px;
+  z-index = -1;
+
+}
+
+#footer
+{
+  position: absolute;
+  margin-left: 150px;
+  margin-right: 150px;
+
+
+}
 
 #welcome_slogan H3
 { font: bold 300% 'News Cycle', Arial, sans-serif;
@@ -153,7 +178,7 @@ ul#nav li.current a, ul#nav li:hover a
 
 #slideshow_container
 { height: 270px;
-  background: #0043A8;
+  background: #d3d3d3;
   padding-top: 20px;}
 
 .slideshow

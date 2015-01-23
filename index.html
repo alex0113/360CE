@@ -15,11 +15,21 @@
   <div id="main">
 
     <header>
+
 	  <div id="strapline">
 	    <div id="welcome_slogan">
 	      <h3>Best Bucharest <span> 360 Career Event</span></h3> <!--aici inseram logo-->
 	    </div><!--close welcome_slogan-->
+      <div id="logo_b">
+        <img src="black_color.png">
+      </div>
+        <div id ="logo_360">
+          <img src="360 Career Event_logo.png">
+        </div>
       </div><!--close strapline-->
+
+
+
 	  <nav>
 	    <div id="menubar">
           <ul id="nav">
@@ -40,6 +50,7 @@
 	    <ul class="slideshow">
           <li class="show"><img width="940" height="250" src="images/home_1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
           <li><img width="940" height="250" src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+          <li><img width="940" height="250" src="images/sr71.jpg" alt="&quot;Enter your caption here&quot;" /></li>
         </ul>
 	  </div><!--close slideshow-->
 	</div><!--close slideshow_container-->
@@ -71,6 +82,19 @@
             <h2>Contact</h2>
             <p>Phone: +44 (0)1234 567891</p>
             <p>Email: <a href="mailto:info@youremail.co.uk">info@youremail.co.uk</a></p>
+            <div id="fb-root"></div>
+            <script>
+              (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+              }(document, 'script', 'facebook-jssdk'));
+            </script>
+
+            <div class="fb-like-box" data-href="https://www.facebook.com/BEST.Bucharest" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+
           </div><!--close sidebar_item-->
         </div><!--close sidebar-->
        </div><!--close sidebar_container-->
@@ -99,8 +123,9 @@
 	</div><!--close site_content-->
 
     <footer>
-	  <a href="index.html">Home</a> | <a href="ourwork.html">Our Work</a> | <a href="testimonials.html">Testimonials</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact</a><br/><br/>
-	  <a href="http://fotogrph.com">Images</a> |  <a href="http://www.heartinternet.co.uk/vps/">Virtual Server</a>  | website template by <a href="http://www.freehtml5templates.co.uk">Free HTML5 Templates</a>
+      <div id="footer">
+        <img src="BEST_footer.png">
+      </div>
     </footer>
 
   </div><!--close main-->
